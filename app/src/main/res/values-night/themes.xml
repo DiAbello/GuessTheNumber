@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuessTheNumber" parent="Theme.Material3.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darker_green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/darker_green</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="popupMenuStyle">@style/popupMenu</item>
+        <item name="android:contextPopupMenuStyle">@style/contextMenu</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="title" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/title_color_light</item>
+    </style>
+    <style name="green_bg" parent="TextAppearance.AppCompat">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="popupMenu">
+        <item name="android:textAppearancePopupMenuHeader">@color/title_color_dark</item>
+        <item name="android:popupBackground">@color/context_color_light</item>
+    </style>
+    <style name="contextMenu">
+        <item name="android:textAppearancePopupMenuHeader">@color/title_color_light</item>
+        <item name="android:popupBackground">@color/context_color_dark</item>
+        <item name="android:itemTextAppearance">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Угадай число</string>
+    <string name="menu_title">Угадай число</string>
+
+    <string name="etHint">Введите число…</string>
+
+    <string name="difficulty">Сложность: </string>
+    <string name="diff_easy">Низкий</string>
+    <string name="diff_middle">Средний</string>
+    <string name="diff_hard">Высокий</string>
+    <string name="diff_none">Не выбрано</string>
+
+    <string name="leaderboard_title">Таблица лидеров</string>
+    <string name="leaderboard_btn">Лидеры</string>
+    <string name="leaderboard_name">Имя</string>
+    <string name="leaderboard_seconds">Время</string>
+
+    <string name="themeBtnText">Сменить тему</string>
+    <string name="themeText">Тема:</string>
+    <string name="context_theme_dark">Тёмная тема</string>
+    <string name="context_theme_light">Светлая тема</string>
+
+    <string name="btnGuess">Попробовать!</string>
+    <string name="btnEnd">Закончить игру!</string>
+    <string name="playBtnText">Играть</string>
+    <string name="exitBtnText">Выйти из игры</string>
+    <string name="btnRandom">Загадать новое число!</string>
+
+    <string name="guessIt">Число загадано! Угадайте!</string>
+
+    <string name="etNameError">Имя не может быть пустым</string>
+    <string name="etSecsNotNumError">Секунды должны быть числом</string>
+    <string name="etSecsError">Секунды должны быть больше 0</string>
+
+    <string name="attemptsRemain">Осталось попыток:</string>
+    <string name="noAttempts">Закончились попытки!</string>
+
+    <string name="timeRemain">Времени осталось:</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.potapov.guessnumber.MainMenu">
+    <item
+        android:id="@+id/action_theme_dark"
+        android:orderInCategory="100"
+        android:title="@string/context_theme_dark"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_theme_light"
+        android:orderInCategory="100"
+        android:title="@string/context_theme_light"
+        app:showAsAction="never" />
+</menu>
